@@ -149,7 +149,7 @@ export const Hero: React.FC = () => {
 
           <div className="pt-12 opacity-0 animate-fade-in delay-300">
             <p className="text-sm text-foreground/100 mb-8">
-              Trusted by innovative brands worldwide
+              Trusted by innovative brandss worldwide
             </p>
             <div className="flex justify-center items-center gap-12 md:gap-12">
               <img
