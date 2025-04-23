@@ -64,7 +64,7 @@ export const Hero: React.FC = () => {
         }}
       />
 
-      <div className="container mx-auto px-4 md:px-6 z-10 pt-48 pb-16">
+      <div className="container mx-auto px-4 md:px-6 z-10 pt- pb-16">
         <div className="max-w-4xl mx-auto text-center space-y-8">
           <div className="space-y-2 opacity-0 animate-fade-in">
             <p className="inline-block text-sm md:text-base px-3 py-1 rounded-full bg-muted text-primary font-medium">
@@ -154,17 +154,17 @@ export const Hero: React.FC = () => {
               <img
                 src="https://storage.googleapis.com/msgsndr/8ubkuCoWLtkXYGj3FdoU/media/6807d2f2baaef98163a547c8.svg"
                 alt="This Naked Mind"
-                className="h-44 opacity-100 hover:opacity-100 transition-opacity"
+                className="h-20 opacity-100 hover:opacity-100 transition-opacity"
               />
               <img
                 src="https://storage.googleapis.com/msgsndr/8ubkuCoWLtkXYGj3FdoU/media/67be28723ee4740620005c6b.png"
                 alt="Tradeway"
-                className="h-16 opacity-100 hover:opacity-100 transition-opacity"
+                className="h-20 opacity-100 hover:opacity-100 transition-opacity"
               />
               <img
                 src="https://storage.googleapis.com/msgsndr/8ubkuCoWLtkXYGj3FdoU/media/6807d2f2c68223f5bbfb04c1.svg"
                 alt="Multifamily Mindset"
-                className="h-44 opacity-100 hover:opacity-100 transition-opacity"
+                className="h-20 opacity-100 hover:opacity-100 transition-opacity"
               />
             </div>
           </div>
