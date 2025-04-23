@@ -126,7 +126,7 @@ export const Hero: React.FC = () => {
 
           <p className="text-xl md:text-2xl text-foreground/80 max-w-3xl mx-auto opacity-0 animate-fade-in delay-100">
             Comprehensive marketing strategies and solutions tailored to elevate
-            your brand, drive growth, and maximize ROI. test
+            your brand, drive growth, and maximize ROI.
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-4 opacity-0 animate-fade-in delay-200">
@@ -149,7 +149,7 @@ export const Hero: React.FC = () => {
 
           <div className="pt-12 opacity-0 animate-fade-in delay-300">
             <p className="text-sm text-foreground/100 mb-8">
-              Trusted by innovative brandss worldwide
+              Trusted by innovative brands worldwide
             </p>
             <div className="flex justify-center items-center gap-12 md:gap-12">
               <img
