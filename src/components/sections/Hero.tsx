@@ -153,17 +153,17 @@ export const Hero: React.FC = () => {
             </p>
             <div className="flex justify-center items-center gap-12 md:gap-12">
               <img
-                src="https://storage.googleapis.com/msgsndr/8ubkuCoWLtkXYGj3FdoU/media/6807d2f2baaef98163a547c8.svg"
+                src=""
                 alt="This Naked Mind"
                 className="h-20 opacity-100 hover:opacity-100 transition-opacity"
               />
               <img
-                src="https://storage.googleapis.com/msgsndr/8ubkuCoWLtkXYGj3FdoU/media/67be28723ee4740620005c6b.png"
+                src=""
                 alt="Tradeway"
                 className="h-20 opacity-100 hover:opacity-100 transition-opacity"
               />
               <img
-                src="https://storage.googleapis.com/msgsndr/8ubkuCoWLtkXYGj3FdoU/media/6807d2f2c68223f5bbfb04c1.svg"
+                src=""
                 alt="Multifamily Mindset"
                 className="h-20 opacity-100 hover:opacity-100 transition-opacity"
               />
