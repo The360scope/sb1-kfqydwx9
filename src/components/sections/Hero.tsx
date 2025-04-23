@@ -146,29 +146,6 @@ export const Hero: React.FC = () => {
               Explore Our Services
             </Button>
           </div>
-
-          <div className="pt-12 opacity-0 animate-fade-in delay-300">
-            <p className="text-sm text-foreground/100 mb-8">
-              Trusted by innovative brands worldwide
-            </p>
-            <div className="flex justify-center items-center gap-12 md:gap-12">
-              <img
-                src=""
-                alt="This Naked Mind"
-                className="h-20 opacity-100 hover:opacity-100 transition-opacity"
-              />
-              <img
-                src=""
-                alt="Tradeway"
-                className="h-20 opacity-100 hover:opacity-100 transition-opacity"
-              />
-              <img
-                src=""
-                alt="Multifamily Mindset"
-                className="h-20 opacity-100 hover:opacity-100 transition-opacity"
-              />
-            </div>
-          </div>
         </div>
       </div>
 
