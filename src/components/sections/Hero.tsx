@@ -45,9 +45,8 @@ export const Hero: React.FC = () => {
     <section
       id="home"
       ref={heroRef}
-      className="relative min-h-screen flex items-center justify-center overflow-hidden"
-      style={
-        {
+      style={{
+        paddingTop: 'var(--header-h)',
           '--x-offset': '0px',
           '--y-offset': '0px',
           '--glow-x': '50%',
@@ -65,7 +64,7 @@ export const Hero: React.FC = () => {
         }}
       />
 
-      <div className="container mx-auto px-4 md:px-6 z-10 py-16">
+      <div className="container mx-auto px-4 md:px-6 z-10 pt-48 pb-16">
         <div className="max-w-4xl mx-auto text-center space-y-8">
           <div className="space-y-2 opacity-0 animate-fade-in">
             <p className="inline-block text-sm md:text-base px-3 py-1 rounded-full bg-muted text-primary font-medium">

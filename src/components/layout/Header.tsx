@@ -6,6 +6,17 @@ import { Button } from '../ui/Button';
 export const Header: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
+  const headerRef = useRef<HTMLElement>(null);
+
+  useLayoutEffect(() => {
+    const setHeight = () => {
+      const h = headerRef.current?.offsetHeight ?? 0;
+      document.documentElement.style.setProperty('--header-h', `${h}px`);
+    };
+    setHeight();               // first run
+    window.addEventListener('resize', setHeight);   // keep it updated
+    return () => window.removeEventListener('resize', setHeight);
+  }, []);
 
   useEffect(() => {
     const handleScroll = () => {
