@@ -1,6 +1,6 @@
 import React from 'react';
 import { Button } from '../ui/Button';
-import { Clock, MapPin, Mail, Phone } from 'lucide-react';
+import { Clock, Mail } from 'lucide-react';
 
 export const Contact: React.FC = () => {
   return (
@@ -60,32 +60,17 @@ export const Contact: React.FC = () => {
                   </div>
                 </div>
               </div>
-              
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-                <div className="flex items-center">
-                  <Phone size={20} className="text-primary mr-3 flex-shrink-0" />
-                  <div>
-                    <p className="text-sm text-foreground/70">Call Us</p>
-                    <p className="font-medium">(123) 456-7890</p>
-                  </div>
-                </div>
-                
+
+              <div className="grid grid-cols-1 md:grid-cols-1 gap-6">
                 <div className="flex items-center">
                   <Mail size={20} className="text-primary mr-3 flex-shrink-0" />
                   <div>
                     <p className="text-sm text-foreground/70">Email</p>
-                    <p className="font-medium">hello@the360scope.com</p>
-                  </div>
-                </div>
-                
-                <div className="flex items-center">
-                  <MapPin size={20} className="text-primary mr-3 flex-shrink-0" />
-                  <div>
-                    <p className="text-sm text-foreground/70">Office</p>
-                    <p className="font-medium">New York, NY</p>
+                    <p className="font-medium">support@the360scope.com</p>
                   </div>
                 </div>
               </div>
+              
             </div>
           </div>
         </div>

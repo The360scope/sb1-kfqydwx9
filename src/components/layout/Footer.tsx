@@ -9,9 +9,6 @@ export const Footer: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div className="space-y-4">
             <Logo />
-            <p className="text-muted-foreground mt-4 max-w-xs">
-              Transforming businesses with our 360° approach to digital marketing and business growth.
-            </p>
             <div className="flex space-x-4 pt-2">
               <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
                 <Instagram size={20} />
@@ -72,26 +69,6 @@ export const Footer: React.FC = () => {
                   About Us
                 </a>
               </li>
-              <li>
-                <a href="#" className="text-muted-foreground hover:text-foreground transition-colors">
-                  Case Studies
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-muted-foreground hover:text-foreground transition-colors">
-                  Testimonials
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-muted-foreground hover:text-foreground transition-colors">
-                  Careers
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-muted-foreground hover:text-foreground transition-colors">
-                  Blog
-                </a>
-              </li>
             </ul>
           </div>
           
@@ -101,20 +78,19 @@ export const Footer: React.FC = () => {
               <li className="flex items-start">
                 <MapPin size={20} className="mr-2 text-primary" />
                 <span className="text-muted-foreground">
-                  123 Marketing Ave, Suite 360<br />
-                  New York, NY 10001
+                  Denver, Colorado
                 </span>
               </li>
               <li className="flex items-center">
                 <Phone size={20} className="mr-2 text-primary" />
                 <a href="tel:+1234567890" className="text-muted-foreground hover:text-foreground transition-colors">
-                  (123) 456-7890
+                  
                 </a>
               </li>
               <li className="flex items-center">
                 <Mail size={20} className="mr-2 text-primary" />
                 <a href="mailto:hello@the360scope.com" className="text-muted-foreground hover:text-foreground transition-colors">
-                  hello@the360scope.com
+                  support@the360scope.com
                 </a>
               </li>
             </ul>
