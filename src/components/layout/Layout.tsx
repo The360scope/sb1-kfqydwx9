@@ -1,19 +1,39 @@
-import React from 'react';
-import { Header } from './Header';
-import { Footer } from './Footer';
+import { Link, Outlet, useLocation } from 'react-router-dom';
+import { Button } from '../ui/Button'; // Correct import
 
-interface LayoutProps {
-  children: React.ReactNode;
-}
+export const Layout = () => {
+  const location = useLocation();
+  const isTransparent = location.pathname === '/' || location.pathname === '/team';
 
-export const Layout: React.FC<LayoutProps> = ({ children }) => {
   return (
-    <div className="flex flex-col min-h-screen">
-      <Header />
-      <main className="flex-1">
-        {children}
+    <>
+      <header className={`w-full top-0 left-0 z-50 ${isTransparent ? 'absolute bg-transparent' : 'relative bg-muted'}`}>
+        <nav className="container mx-auto px-4 py-6 flex items-center justify-between text-foreground">
+          <Link to="/" className="text-xl font-bold gradient-text">
+            The 360 Scope
+          </Link>
+
+          <div className="flex items-center gap-6 text-sm font-medium">
+            <Link to="/team" className="hover:underline">
+              Team
+            </Link>
+            <Button
+              size="sm"
+              onClick={() => window.open('https://start.the360scope.com/', '_blank')}
+            >
+              Book a Strategy Call
+            </Button>
+          </div>
+        </nav>
+      </header>
+
+      <main className="pt-[var(--header-h,4rem)]">
+        <Outlet />
       </main>
-      <Footer />
-    </div>
+
+      <footer className="bg-muted text-foreground text-center py-6">
+        © 2024 The 360 Scope. All rights reserved.
+      </footer>
+    </>
   );
 };

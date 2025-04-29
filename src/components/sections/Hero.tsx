@@ -45,16 +45,15 @@ export const Hero: React.FC = () => {
     <section
       id="home"
       ref={heroRef}
-      style={{
-        paddingTop: 'var(--header-h)',
+      className="relative flex flex-col items-center justify-center min-h-screen text-center px-4 md:px-6"
+        style={{
+          paddingTop: 'var(--header-h, 80px)',
           '--x-offset': '0px',
           '--y-offset': '0px',
           '--glow-x': '50%',
           '--glow-y': '50%',
-        } as React.CSSProperties
-        
-      }
-    >
+      } as React.CSSProperties}
+>
       {/* Background Gradient */}
       <div
         className="absolute inset-0 opacity-40 blur-3xl"
@@ -65,7 +64,7 @@ export const Hero: React.FC = () => {
         }}
       />
 
-      <div className="container mx-auto px-4 md:px-6 z-10 pt-48 pb-16">
+      <div className="max-w-4xl mx-auto z-10 space-y-8">
         <div className="max-w-4xl mx-auto text-center space-y-8">
           <div className="space-y-2 opacity-0 animate-fade-in">
             <p className="inline-block text-sm md:text-base px-3 py-1 rounded-full bg-muted text-primary font-medium">
@@ -130,7 +129,7 @@ export const Hero: React.FC = () => {
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-4 opacity-0 animate-fade-in delay-200">
-            <Button onClick={() => window.open('#', '_blank')} size="lg">
+            <Button onClick={() => window.open('https://start.the360scope.com/', '_blank')} size="lg">
               Book a Strategy Call
             </Button>
 

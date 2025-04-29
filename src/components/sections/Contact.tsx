@@ -32,7 +32,7 @@ export const Contact: React.FC = () => {
                       A 30-minute conversation to understand your business and goals.
                     </p>
                     <div className="mt-auto">
-                      <Button onClick={() => window.open('#', '_blank')} className="w-full">
+                      <Button onClick={() => window.open('https://start.the360scope.com/', '_blank')} className="w-full">
                         Book Your Call
                       </Button>
                     </div>

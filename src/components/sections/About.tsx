@@ -43,7 +43,7 @@ export const About: React.FC = () => {
           </div>
           
           <div className="pt-6 text-center">
-            <Button onClick={() => window.open('#', '_blank')}>
+            <Button onClick={() => window.open('https://start.the360scope.com/', '_blank')}>
               Schedule a Consultation
             </Button>
           </div>
