@@ -1,10 +1,10 @@
 const teamMembers = [
-    { name: 'Shawn Henry', role: 'CEO / Founder', image: 'https://via.placeholder.com/300x300?text=Shawn' },
-    { name: 'Corinna Foster', role: 'COO', image: 'https://via.placeholder.com/300x300?text=Corinna' },
-    { name: 'Nick Lemberger', role: 'CMO', image: 'https://via.placeholder.com/300x300?text=Nick' },
-    { name: 'Kaitlyn Dawson', role: 'Creatives', image: 'https://via.placeholder.com/300x300?text=Kaitlyn' },
-    { name: 'Ana Katrina', role: 'Tech', image: 'https://via.placeholder.com/300x300?text=Ana' },
-    { name: 'Danielle Brock', role: 'Copy', image: 'https://via.placeholder.com/300x300?text=Danielle' },
+    { name: 'Shawn Henry', role: 'CEO / Founder', image: 'https://storage.googleapis.com/msgsndr/8ubkuCoWLtkXYGj3FdoU/media/68112ee4b3d5833336cea013.jpeg' },
+    { name: 'Corinna Foster', role: 'COO', image: 'https://storage.googleapis.com/msgsndr/8ubkuCoWLtkXYGj3FdoU/media/68112ee460b2253253dee39b.jpeg' },
+    { name: 'Nick Lemberger', role: 'CMO', image: 'https://storage.googleapis.com/msgsndr/8ubkuCoWLtkXYGj3FdoU/media/68112ee4eb94a858520b43c1.jpeg' },
+    { name: 'Kaitlyn Dawson', role: 'Creatives', image: 'https://storage.googleapis.com/msgsndr/8ubkuCoWLtkXYGj3FdoU/media/68112ee460b225e083dee39c.jpeg' },
+    { name: 'Ana Katrina', role: 'Tech', image: 'https://storage.googleapis.com/msgsndr/8ubkuCoWLtkXYGj3FdoU/media/68112ee460b22528b6dee39d.jpeg' },
+    { name: 'Danielle Brock', role: 'Copy', image: 'https://storage.googleapis.com/msgsndr/8ubkuCoWLtkXYGj3FdoU/media/68112ee4d5bace465799bd5d.jpeg' },
   ];
   
   const Team = () => {
