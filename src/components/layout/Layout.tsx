@@ -8,7 +8,7 @@ export const Layout = () => {
   return (
     <>
       <header className={`w-full top-0 left-0 z-50 ${isTransparent ? 'absolute bg-transparent' : 'relative bg-muted'}`}>
-        <nav className="container mx-auto px-4 py-6 flex items-center justify-between text-foreground">
+        <nav className="container mx-auto px-4 py-6 flex items-center justify-between text-foreground gap-2 overflow-hidden">
           <Link to="/" className="text-xl font-bold gradient-text">
             The 360 Scope
           </Link>
@@ -21,7 +21,7 @@ export const Layout = () => {
               size="sm"
               onClick={() => window.open('https://start.the360scope.com/', '_blank')}
             >
-              Book a Strategy Call
+              Book a Call
             </Button>
           </div>
         </nav>
