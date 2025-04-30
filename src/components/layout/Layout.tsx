@@ -32,7 +32,7 @@ export const Layout = () => {
       </main>
 
       <footer className="bg-muted text-foreground text-center py-6">
-        © 2024 The 360 Scope. All rights reserved.
+        © 2025 The 360 Scope. All rights reserved.
       </footer>
     </>
   );

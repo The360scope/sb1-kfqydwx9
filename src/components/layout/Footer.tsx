@@ -99,7 +99,7 @@ export const Footer: React.FC = () => {
         
         <div className="mt-12 pt-8 border-t border-border flex flex-col md:flex-row justify-between items-center">
           <p className="text-muted-foreground text-sm">
-            © {new Date().getFullYear()} The 360 Scope. All rights reserved.
+          © {new Date().getFullYear()} The 360 Scope. All rights reserved.
           </p>
           <div className="flex space-x-6 mt-4 md:mt-0">
             <a href="#" className="text-muted-foreground hover:text-foreground transition-colors text-sm">
