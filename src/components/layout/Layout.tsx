@@ -1,5 +1,6 @@
 import { Link, Outlet, useLocation } from 'react-router-dom';
 import { Button } from '../ui/Button'; // Correct import
+import { Footer } from '/home/The360scope/sb1-kfqydwx9/src/components/layout/Footer.tsx'
 
 export const Layout = () => {
   const location = useLocation();
@@ -31,9 +32,7 @@ export const Layout = () => {
         <Outlet />
       </main>
 
-      <footer className="bg-muted text-foreground text-center py-6">
-        © 2025 The 360 Scope. All rights reserved.
-      </footer>
+      <Footer />
     </>
   );
 };
